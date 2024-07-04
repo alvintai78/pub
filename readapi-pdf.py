@@ -8,7 +8,7 @@ key = "{DOCINTELLIGENCE_KEY"
 endpoint = "[DOCINTELLIGENCE_SERVICE_ENDPOINT"
 storage_connection_string = "[CONNECTIONSTRING]"
 container_name = "file"
-blob_name = "[PDFFILENAME"
+blob_name = "[PDFFILENAME]"
 
 # formatting function
 def format_polygon(polygon):

@@ -4,11 +4,11 @@ from azure.core.credentials import AzureKeyCredential
 from azure.storage.blob import BlobServiceClient
 
 # use your `key` and `endpoint` environment variables
-key = "a262df977e6a4f9cb5ed2fc2245b9fe8"
-endpoint = "https://docintelweat.cognitiveservices.azure.com"
-storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=nparksblob01;AccountKey=5EK82zklSZMrJ5f0L6aPduZhQ5M1U44NzWXQCHIqFQt8LHhGoB4lPuhBrDBsjOHTnj7GGck3Eq37+ASt2BKRRg==;EndpointSuffix=core.windows.net"
+key = "{DOCINTELLIGENCE_KEY"
+endpoint = "[DOCINTELLIGENCE_SERVICE_ENDPOINT"
+storage_connection_string = "[CONNECTIONSTRING]"
 container_name = "file"
-blob_name = "IVE_KINGFISHER.pdf"
+blob_name = "[PDFFILENAME"
 
 # formatting function
 def format_polygon(polygon):
